@@ -21,4 +21,4 @@ r= r- n10*10
 r5=int(r/5)
 r=r-r5*5
 
-print(n5, n1,n50,n10,r5,r)
+print(str("500 ") +str(n5) +str(" 100:")+ str(n1)+str(n50)+str(n10)+str(r5)+ str(r))
