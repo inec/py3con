@@ -18,5 +18,6 @@ def GoogGeoAPI(address,api="",delay=5):
   return finList
 test = r"1600 Amphitheatre Parkway, Mountain View, CA"
 test = r"R1A1S1"
+test = r"R3C0G8"
 geoR = GoogGeoAPI(address=test)
 print(geoR)
