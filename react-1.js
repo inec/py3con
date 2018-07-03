@@ -8,6 +8,13 @@ class MyComponent extends React.Component {
   }
   handleClick() {
     // change code below this line
+    handleClick() {
+      // change code below this line
+      this.setState({
+        name:'React Rocks!'
+      });
+      // change code above this line
+    }
     // change code above this line
   }
   render() {
